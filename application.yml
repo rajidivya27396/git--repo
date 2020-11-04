@@ -1,6 +1,4 @@
-spring:
-  h2:
-    console:
-      enabled: true
-server:
-  port: 8081       
+service:
+  provider:
+    url:https://localhost:8081/Provider/getProvider
+          
