@@ -1,4 +1,4 @@
 service:
   provider:
-    url:https://localhost:8081/Provider/getProvider
+    url:http://localhost:8081/Provider/getProvider
           
