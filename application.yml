@@ -1,4 +1,0 @@
-service:
-  provider:
-    url:http://localhost:8081/Provider/getProvider
-          
