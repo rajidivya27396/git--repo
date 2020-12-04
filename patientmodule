@@ -1,0 +1,15 @@
+server:
+  port: 8203
+spring:  
+  datasource:
+    url: jdbc:mysql://localhost:3306/mysqldb
+  redis:
+    host: localhost
+    port: 6379
+  cache:
+    redis:
+      key-prefix: keyval  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true 
