@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+
+    vault:
+      token: 00000000-0000-0000-0000-000000000000
+      scheme: http
+      kv:
+       enabled: true
+    config:
+      server:
+        git:
+          uri: https://github.com/rajidivya27396/git--repo
