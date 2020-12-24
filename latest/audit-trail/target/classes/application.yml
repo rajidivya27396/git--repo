@@ -1,0 +1,14 @@
+spring:  
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: user
+  kafka:
+    consumer:
+      properties:
+        spring.json.trusted.packages: '*'
+           
+server:
+  port: 8905
+  

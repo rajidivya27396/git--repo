@@ -1,0 +1,29 @@
+spring:  
+  application:
+    name: vital-module
+  datasource:
+    url: jdbc:mysql://localhost:3306/mysqldb
+    username: root
+    password: MySql@123
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: user
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+logging:
+  file: 
+    name: C:/ELK/logging.log
+patient:  
+  service:
+    url: http://localhost:8203
+    name: patientService
+feign:
+  client:
+    config:
+      default:
+        readTimeout: 1000
+        connectTimeout: 1000
