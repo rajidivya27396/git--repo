@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user-module
+  datasource:
+    url: jdbc:mysql://localhost:3306/mysqldb
+    username: root
+    password: MySql@123
+  cloud:
+    config:  
+      uri: http://config-app     
+  

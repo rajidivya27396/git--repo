@@ -1,0 +1,11 @@
+server:
+  port: 8601 
+spring:
+  application:
+    name: usermodule1
+  datasource:
+    url: jdbc:mysql://localhost:3306/mysqldb
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
